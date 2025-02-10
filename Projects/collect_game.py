@@ -3,7 +3,7 @@ import codesters
 import random
 from codesters import StageClass
 stage = StageClass()
-stage.disable_left_wall()
+stage.disable_left_wall() 
 
 stage.set_background("underwater")
 player = codesters.Sprite("dolphin",-175, 0)
